@@ -32,7 +32,10 @@ To understand what else you can do with Dartling examine its API defined in abst
 
 ## Examples
 
-The [Link model](https://dl.dropbox.com/u/161496/dart/mb/model/Link2.png) has the most commonly used patterns: optional relationship (0..N -- 0..1), id dependent relationship (0..N -- 1..1 id), and many-to-many relationship (represented as two one-to-many id dependent relationships).
+The [Link model](https://dl.dropbox.com/u/161496/dart/mb/model/Link2.png) has the most commonly used patterns: 
+* optional relationship (0..N -- 0..1), 
+* id dependent relationship (0..N -- 1..1 id), 
+* and many-to-many relationship (represented as two one-to-many id dependent relationships).
 
 The [JSON text](https://dl.dropbox.com/u/161496/dart/mb/model/Link2.txt) is generated in Magic Boxes and used in Dartling to create its meta model. The meta model is used in almost all methods of the Dartling’s API.
 
