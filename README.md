@@ -30,7 +30,7 @@ You can add, remove, update, find, select and order data. Actions or transaction
 
 To understand what else you can do with Dartling examine its API defined in abstract classes with Api at the end of their names. The two most important ones are EntitiesApi and EntityApi.
 
-## Examples
+## Example
 
 The [Link model](https://dl.dropbox.com/u/161496/dart/mb/model/Link2.png) has the most commonly used patterns: 
 * optional relationship (0..N -- 0..1), 
