@@ -1,5 +1,18 @@
+# Dartling Project
 
+[Dartling Skeleton] (https://github.com/dzenanr/dartling_skeleton.dart) is a project template for a new Dartling project.
 
+**What Can You Do with Dartling?**
+
+* design a domain model in Magic Boxes
+* transform the model into a JSON representation
+* prepare your dartling project based on the dartling_skeleton.dart project
+* copy the JSON representation of the model to your project
+* generate the code for your project from your project
+* test your model with some data
+* init your model with some data
+* add some specific code if you wish
+* run the prototype application that uses the model and Dartling web components
 
 # Dartling
 
@@ -17,7 +30,7 @@ You can add, remove, update, find, select and order data. Actions or transaction
 
 To understand what else you can do with Dartling examine its API defined in abstract classes with Api at the end of their names. The two most important ones are EntitiesApi and EntityApi.
 
-## Example
+## Examples
 
 The [Link model](https://dl.dropbox.com/u/161496/dart/mb/model/Link2.png) has the most commonly used patterns: optional relationship (0..N -- 0..1), id dependent relationship (0..N -- 1..1 id), and many-to-many relationship (represented as two one-to-many id dependent relationships).
 

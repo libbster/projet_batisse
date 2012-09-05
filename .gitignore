@@ -1,5 +1,7 @@
 packages/*
 pubspec.lock
+app.dart.js
+app.dart.js.map
 dartling_skeleton.dart.js
 dartling_skeleton.dart.js.map
 *~
