@@ -1,4 +1,4 @@
-github.txt for dartling_skeleton.dart
+github.txt for dartling_skeleton
 
 GitHub, Git
 
@@ -22,22 +22,22 @@ http://scottr.org/presentations/git-in-5-minutes/
 ---------------------------------------------------------------------
 
 After creating an account, create a remote repository.
-The following is what I did for dartling_skeleton.dart.
+The following is what I did for dartling_skeleton.
 
 http://help.github.com/create-a-repo/
 
 Create a New Repository at GitHub (without README, since cloning will not be used)
-Repository Name: dartling_skeleton.dart
+Repository Name: dartling_skeleton
 Description: 
   A project skeleton to be copied and adapted for a new project with Dartling.
       
 Next steps:
-  cd git/dart/dartling_skeleton.dart
+  cd git/dart/dartling_skeleton
   git init
   git status
   git add .
   git commit -m 'working version'
-  git remote add origin https://github.com/dzenanr/dartling_skeleton.dart.git
+  git remote add origin https://github.com/dzenanr/dartling_skeleton.git
   git push -u origin master     
 
 ----------------------------------------------------------------------
@@ -47,14 +47,14 @@ Git with Git Bash
 Clone a remote repository into a local repository.
 
 cd git/dart/teach
-git clone https://github.com/dzenanr/Dartling.git
-cd Dartling
+git clone https://github.com/dzenanr/dartling.git
+cd dartling
 
 Read+Write:
-https://github.com/dzenanr/Dartling.git
+https://github.com/dzenanr/dartling.git
 
 Read only:
-git://github.com/dzenanr/Dartling.git
+git://github.com/dzenanr/dartling.git
 
 Get the latest changes from the remote repository
 
@@ -65,7 +65,7 @@ git pull origin master
 
 Work with a local repository
 
-cd git/dart/taech/Dartling
+cd git/dart/dartling
 
 git add .
 

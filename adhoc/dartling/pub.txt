@@ -1,11 +1,15 @@
 pub: The Dart Package Manager
 
+http://www.dartlang.org/docs/pub-package-manager/pubspec.html
 http://www.dartlang.org/docs/pub-package-manager/
 https://docs.google.com/document/d/13y7yCwq9GtPChXtd6t0YMcUtMJLZq2IVwq546Dve_No/edit
 http://bob-package-layout.dart-lang.appspot.com/docs/pub-package-manager/package-layout.html
 Google: windows set environment variable
 http://www.itechtalk.com/thread3595.html
 http://blogs.msdn.com/b/ie/archive/2006/12/06/file-uris-in-windows.aspx
+
+Semantic versioning
+http://semver.org/
 
 USER VAR
 DART_SDK :
@@ -17,12 +21,22 @@ add at the end:
 restart
 
 command black window
-cd git/dart/dartling
-pubspec.yaml is in the dartling folder
+cd git/dart/dartling_skeleton
+
+pubspec.yaml is in the dartling_skeleton folder
+
+name: dartling_skeleton
+version: 0.0.0
+description: >
+  Dartling is a domain model framework for web application prototypes.
+  A new dartling project is copied and adapted from dartling_skeleton.
 dependencies:
   unittest:
     sdk: unittest
-from the dartling folder:
+  dartling:
+    git: git://github.com/dzenanr/dartling.git
+    
+from the dartling_skeleton folder:
 pub install
 
 the packages folder appears in the dartling folder:
