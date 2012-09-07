@@ -4,7 +4,5 @@ description: >
   Dartling is a domain model framework for web application prototypes.
   A new dartling project is copied and adapted from dartling_skeleton.
 dependencies:
-  unittest:
-    sdk: unittest
   dartling:
     git: git://github.com/dzenanr/dartling.git
