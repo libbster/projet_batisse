@@ -76,18 +76,18 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #source("../dartling/view/component/param.dart");
 #source("../dartling/view/component/repo.dart");
 
-#source("data/dartling/skeleton/init.dart");
-#source("data/dartling/skeleton/test/data.dart");
-#source("data/dartling/skeleton/test/group.dart");
-#source("data/dartling/skeleton/test/single.dart");
-#source("data/dartling/skeleton/json/data.dart");
+#source("data/projet/batisse/init.dart");
+#source("data/projet/batisse/test/data.dart");
+#source("data/projet/batisse/test/group.dart");
+#source("data/projet/batisse/test/single.dart");
+#source("data/projet/batisse/json/data.dart");
 // do not change model
-#source("data/dartling/skeleton/json/model.dart");
+#source("data/projet/batisse/json/model.dart");
 
-#source("data/gen/dartling/skeleton/entries.dart");
+#source("data/gen/projet/batisse/entries.dart");
 // do not change models
-#source("data/gen/dartling/models.dart");
-#source("data/gen/dartling/repository.dart");
+#source("data/gen/projet/models.dart");
+#source("data/gen/projet/repository.dart");
 
 initDartlingData(DartlingRepo dartlingRepo) {
   var dartlingModels =
