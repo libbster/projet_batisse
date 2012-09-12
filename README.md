@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dartling Project
 
 [Dartling Skeleton] (https://github.com/dzenanr/dartling_skeleton) is a project template for a new Dartling project.
@@ -48,3 +49,9 @@ The data folder contains JSON representation of a model and its data. The model.
 [**More details**] (https://docs.google.com/document/d/1IYs9jqWfKXmflTIGYob7qIE01wwJpWRQkWHQXZLNSvo/edit)
 
 [**New project**] (https://docs.google.com/document/d/1n9dBtZskRPyy57whjKRzRl7gKG2b5KVZVghViGxAEMg/edit)
+=======
+projet_batisse
+==============
+
+Testing Darltling
+>>>>>>> 18189a75668230bd1c883e7f7e3176e473a8a234
