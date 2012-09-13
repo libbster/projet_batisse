@@ -17,21 +17,22 @@ var projetBatisseModelJson = @'''
    "height":580,
    "boxes":[
       {
+         "entry":true,
          "name":"Batisse",
-         "x":534,
-         "height":80,
-         "y":363,
-         "entry":false,
+         "x":126,
+         "y":144,
          "width":80,
+         "height":80,
          "items":[
             {
                "sequence":10,
-               "name":"nom",
                "category":"identifier",
+               "name":"nom",
                "type":"String",
                "init":""
             }
          ]
       }
    ]
-}''';
+}
+''';
